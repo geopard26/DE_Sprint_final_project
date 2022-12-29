@@ -1,6 +1,6 @@
 # DE_Sprint_final_project
 
-1.	Purpose and description of the project
+**1.	Purpose and description of the project**
 
 The project was carried out for the research project "Study and prediction of biodiversity of the superorder Dinosauria".
 Final goal of the R&D project: prediction of potential biodiversity of the superorder Dinosauria in each of the geological periods on the territory of Pangea and continents formed after its collapse.
@@ -20,7 +20,7 @@ The objectives of the article were described:
 5 - comparing the resulting assumptions with existing descriptions;
 7 - concluding that the superorder Dinosauria flourished towards the end of the Cretaceous and a likely "catastrophic" event influenced their extinction.
 
-2.	Data collecting.
+**2.	Data collecting.**
 
 We start the project and look at the data to begin with. This step uses only descriptive analytics. The purpose of this step is to understand the weaknesses and strengths of the data used, to determine its sufficiency, and to propose ideas on how to use it. 
 During the deployment phase of the project, we received two types of data:
@@ -31,18 +31,18 @@ The first table includes: id, species name (specie), food type (diet).
 The second table includes: id, collection number (colestion_number), latitude coordinate of fossil location (latitude), longitude coordinate of fossil location (longitude), species name (specie).
 The third table contains: id, specie, genera, family, type_tishia. 3.
 
-3. Data description
+**3. Data description**
 Next, we look at the data available to us.
 The description of data in all sources (table, key, number of rows, number of columns).
 Using Jupiter NB (Python and the libraries numpy, pandas and matplotlib) we calculated for each column of quantitative data the key statistics on the attributes (minimum, maximum, scatter, deviation, standard deviation, etc.).
 
-4. Data quality.
+**4. Data quality.**
 In this step we record:
 1) missing values;
 2) data errors (typos);
 3) brought the coding of values to a uniform correspondence (for example, the type of movement Ornithischian - bird species, was fixed as the Latin name or as "2", similarly coded types of feeding by numbers and names in different sources were coded types of feeding)
 
-5. Data exploration
+**5. Data exploration**
 
 Using graphs and tables, explore the data to formulate hypotheses about how the data will help solve the problem.
 In a mini-report we record what we found interesting in the data, as well as a list of attributes that are potentially useful.
